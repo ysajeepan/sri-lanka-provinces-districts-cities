@@ -2,7 +2,9 @@
 
 
 ## About
-------
+
+
+
 This is a MySQL version of Sri Lankan Provinces => Districts => Cities related data.
 
 There are three SQL files,
@@ -45,7 +47,7 @@ There are three SQL files,
 
 
 ## MySQL Usage
-------
+
 
 **Advantages of latitude and longitude**
 
@@ -64,7 +66,7 @@ ORDER BY distance
 
 
 ## Note
-------
+
 
 * This free database dose not guarantee for the complete list of cities in Sri Lanka.
 * You can manually change the spelling mistakes or add edit any records, which are not correct.
