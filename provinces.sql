@@ -5,7 +5,9 @@
 
 CREATE TABLE IF NOT EXISTS `provinces` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) NOT NULL,
+  `name_en` varchar(45) NOT NULL,
+  `name_si` varchar(45) DEFAULT NULL,
+  `name_ta` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
 
@@ -13,14 +15,13 @@ CREATE TABLE IF NOT EXISTS `provinces` (
 -- Dumping data for table `provinces`
 --
 
-INSERT INTO `provinces` (`id`, `name`) VALUES
-(1, 'Western'),
-(2, 'Central'),
-(3, 'Southern'),
-(4, 'North Western'),
-(5, ' Sabaragamuwa'),
-(6, 'Eastern'),
-(7, 'Uva'),
-(8, 'North Central'),
-(9, 'Northern');
-
+INSERT INTO `provinces` (`id`, `name_en`, `name_si`, `name_ta`) VALUES
+(1, 'Western', 'බස්නාහිර', 'மேல்'),
+(2, 'Central', 'මධ්‍යම', 'மத்திய'),
+(3, 'Southern', 'දකුණු', 'தென்'),
+(4, 'North Western', 'වයඹ', 'வட மேல்'),
+(5, 'Sabaragamuwa', 'සබරගමුව', 'சபரகமுவ'),
+(6, 'Eastern', 'නැගෙනහිර', 'கிழக்கு'),
+(7, 'Uva', 'ඌව', 'ஊவா'),
+(8, 'North Central', 'උතුරු මැද', 'வட மத்திய'),
+(9, 'Northern', 'උතුරු', 'வட');

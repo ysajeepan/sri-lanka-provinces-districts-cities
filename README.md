@@ -23,26 +23,26 @@ There are three SQL files,
 
 **Provinces**
 
-| id  | name |
-| --- | ------- |
-| 1   | Western |
-| 2   | Central |
+| id  | name_en | name_si | name_ta |
+| --- | ------- | ------- | ------- |
+| 1   | Western | NULL    | NULL    |
+| 2   | Central | NULL    | NULL    |
 
 
 **Districts**
 
-| id  | province_id| name         |
-| --- | ---------- | ------------ |
-| 1   | 6          | Ampara       |
-| 2   | 8          | Anuradhapura |
+| id  | province_id| name_en      | name_si      | name_ta      |
+| --- | ---------- | ------------ | ------------ | ------------ |
+| 1   | 6          | Ampara       | NULL         | NULL         |
+| 2   | 8          | Anuradhapura | NULL         | NULL         |
 
 
 **Cities**
 
-| id  | district_id | name          | postcode | latitude | longitude |
-| --- | ----------- | ------------- | -------- | -------- | --------- |
-| 1   | 1           | Akkaraipattu  | 32400    | 7.2167   | 81.85     |
-| 2   | 1           | Ambagahawatta | 90326    | 7.4      | 81.3      |
+| id  | district_id | name_en       | name_si       | name_ta       | postcode | latitude | longitude |
+| --- | ----------- | ------------- | ------------- | ------------- | -------- | -------- | --------- |
+| 1   | 1           | Akkaraipattu  | NULL          | NULL          | 32400    | 7.2167   | 81.85     |
+| 2   | 1           | Ambagahawatta | NULL          | NULL          | 90326    | 7.4      | 81.3      |
 
 
 

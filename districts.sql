@@ -5,8 +5,10 @@
 
 CREATE TABLE IF NOT EXISTS `districts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(45) DEFAULT NULL,
   `province_id` int(2) NOT NULL,
+  `name_en` varchar(45) DEFAULT NULL,
+  `name_si` varchar(45) DEFAULT NULL,
+  `name_ta` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `provinces_id` (`province_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=26 ;
@@ -15,32 +17,32 @@ CREATE TABLE IF NOT EXISTS `districts` (
 -- Dumping data for table `districts`
 --
 
-INSERT INTO `districts` (`id`, `name`, `province_id`) VALUES
-(1, 'Ampara', 6),
-(2, 'Anuradhapura', 8),
-(3, 'Badulla', 7),
-(4, 'Batticaloa', 6),
-(5, 'Colombo', 1),
-(6, 'Galle', 3),
-(7, 'Gampaha', 1),
-(8, 'Hambantota', 3),
-(9, 'Jaffna', 9),
-(10, 'Kalutara', 1),
-(11, 'Kandy', 2),
-(12, 'Kegalle', 5),
-(13, 'Kilinochchi', 9),
-(14, 'Kurunegala', 4),
-(15, 'Mannar', 9),
-(16, 'Matale', 2),
-(17, 'Matara', 3),
-(18, 'Moneragala', 7),
-(19, 'Mullaitivu', 9),
-(20, 'Nuwara Eliya', 2),
-(21, 'Polonnaruwa', 8),
-(22, 'Puttalam', 4),
-(23, 'Ratnapura', 5),
-(24, 'Trincomalee', 6),
-(25, 'Vavuniya', 9);
+INSERT INTO `districts` (`id`, `province_id`, `name_en`, `name_si`, `name_ta`) VALUES
+(1, 6, 'Ampara', NULL, NULL),
+(2, 8, 'Anuradhapura', NULL, NULL),
+(3, 7, 'Badulla', NULL, NULL),
+(4, 6, 'Batticaloa', NULL, NULL),
+(5, 1, 'Colombo', NULL, NULL),
+(6, 3, 'Galle', NULL, NULL),
+(7, 1, 'Gampaha', NULL, NULL),
+(8, 3, 'Hambantota', NULL, NULL),
+(9, 9, 'Jaffna', NULL, NULL),
+(10, 1, 'Kalutara', NULL, NULL),
+(11, 2, 'Kandy', NULL, NULL),
+(12, 5, 'Kegalle', NULL, NULL),
+(13, 9, 'Kilinochchi', NULL, NULL),
+(14, 4, 'Kurunegala', NULL, NULL),
+(15, 9, 'Mannar', NULL, NULL),
+(16, 2, 'Matale', NULL, NULL),
+(17, 3, 'Matara', NULL, NULL),
+(18, 7, 'Moneragala', NULL, NULL),
+(19, 9, 'Mullaitivu', NULL, NULL),
+(20, 2, 'Nuwara Eliya', NULL, NULL),
+(21, 8, 'Polonnaruwa', NULL, NULL),
+(22, 4, 'Puttalam', NULL, NULL),
+(23, 5, 'Ratnapura', NULL, NULL),
+(24, 6, 'Trincomalee', NULL, NULL),
+(25, 9, 'Vavuniya', NULL, NULL);
 
 --
 -- Constraints for dumped tables
@@ -51,4 +53,3 @@ INSERT INTO `districts` (`id`, `name`, `province_id`) VALUES
 --
 ALTER TABLE `districts`
   ADD CONSTRAINT `fk_districts_provinces1` FOREIGN KEY (`province_id`) REFERENCES `provinces` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
