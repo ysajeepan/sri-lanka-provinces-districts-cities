@@ -23,10 +23,10 @@ There are three SQL files,
 
 **Provinces**
 
-| id  | name_en | name_si | name_ta |
-| --- | ------- | ------- | ------- |
-| 1   | Western | NULL    | NULL    |
-| 2   | Central | NULL    | NULL    |
+| id  | name_en | name_si  | name_ta |
+| --- | ------- | -------- | ------- |
+| 1   | Western | බස්නාහිර | மேல்          |
+| 2   | Central | මධ්‍යම   | மத்திய       |
 
 
 **Districts**
@@ -70,4 +70,5 @@ ORDER BY distance
 
 * This free database dose not guarantee for the complete list of cities in Sri Lanka.
 * You can manually change the spelling mistakes or add edit any records, which are not correct.
-* TODO - Translate names into සිංහල and தமிழ் for multilingual purposes
+* TODO - Translate names into සිංහල and தமிழ் for multilingual purposes.
+..* Provinces done.
