@@ -71,7 +71,7 @@ ORDER BY distance
 * This free database dose not guarantee for the complete list of cities in Sri Lanka.
 * You can manually change the spelling mistakes or add edit any records, which are not correct.
 * TODO - Translate names into සිංහල and தமிழ் for multilingual purposes.
-* 
+
 
 
 ### Translation in progress
