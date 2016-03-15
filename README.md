@@ -33,8 +33,8 @@ There are three SQL files,
 
 | id  | province_id| name_en      | name_si      | name_ta      |
 | --- | ---------- | ------------ | ------------ | ------------ |
-| 1   | 6          | Ampara       | අම්පාර        | NULL         |
-| 2   | 8          | Anuradhapura | අනුරාධපුරය    | NULL         |
+| 1   | 6          | Ampara       | අම්පාර        | அம்பாறை      |
+| 2   | 8          | Anuradhapura | අනුරාධපුරය    | அனுராதபுரம்     |
 
 
 **Cities**
@@ -71,5 +71,26 @@ ORDER BY distance
 * This free database dose not guarantee for the complete list of cities in Sri Lanka.
 * You can manually change the spelling mistakes or add edit any records, which are not correct.
 * TODO - Translate names into සිංහල and தமிழ் for multilingual purposes.
- * Provinces done - Mar 10, 2016.
- * Districts done (Sinhala only) - Mar 11, 2016.
+* 
+
+
+### Translation in progress
+
+> **Provinces**
+> 
+> | සිංහල | தமிழ |  
+> | ---- | ---- |
+> | 100% | 100% |
+>
+**Districts**
+> 
+> | සිංහල | தமிழ |  
+> | ---- | ---- |
+> | 100% | 100% |
+>
+**Cities**
+> 
+> | සිංහල | தமிழ |  
+> | ---- | ---- |
+> | 4% | 0% |
+
