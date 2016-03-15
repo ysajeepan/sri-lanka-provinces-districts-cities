@@ -41,7 +41,7 @@ There are three SQL files,
 
 | id  | district_id | name_en       | name_si       | name_ta       | postcode | latitude | longitude |
 | --- | ----------- | ------------- | ------------- | ------------- | -------- | -------- | --------- |
-| 1   | 1           | Akkaraipattu  | අක්කරපත්තු     | NULL          | 32400    | 7.2167   | 81.85     |
+| 1   | 1           | Akkaraipattu  | අක්කරපත්තුව    | NULL          | 32400    | 7.2167   | 81.85     |
 | 2   | 1           | Ambagahawatta | අඹගහවත්ත     | NULL          | 90326    | 7.4      | 81.3      |
 
 
